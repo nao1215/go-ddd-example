@@ -10,36 +10,36 @@
 
 ```shell
 ├── api
-│      ├── dashboard
-│      ├── mobile
-│      └── web
+│     ├── dashboard
+│     ├── mobile
+│     └── web
 ├── application
-│      ├── command
-│      ├── query
-│      └── usecase
+│     ├── command
+│     ├── query
+│     └── usecase
 ├── cmd
-│      ├── api
-│      └── batch
+│     ├── api
+│     └── batch
 ├── config
 ├── domain
-│      ├── model
-│      │     ├── aggregation
-│      │     ├── entity
-│      │     └── vo
-│      ├── repository
-│      └── service
+│     ├── model
+│     │     ├── aggregation
+│     │     ├── entity
+│     │     └── vo
+│     ├── repository
+│     └── service
 └── infrastructure
-        ├── client
-        │      ├── spotify
-        │      └── youtube
-        ├── persistence
-        │      ├── dynamodb
-        │      ├── mysql
-        │      ├── redis
-        │      └── s3
-        └── service
-                ├── pinpoint
-                └── sqs
+       ├── client
+       │      ├── spotify
+       │      └── youtube
+       ├── persistence
+       │      ├── dynamodb
+       │      ├── mysql
+       │      ├── redis
+       │      └── s3
+       └── service
+               ├── pinpoint
+               └── sqs
 ```
 
 ## ディレクトリ構成の役割
